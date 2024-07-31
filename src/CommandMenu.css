@@ -1,0 +1,56 @@
+/* src/components/CommandMenu.css */
+.command-menu {
+  position: relative;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.command-menu-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3); /* White shadow for button */
+}
+
+.command-menu-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  border: 1px solid #555; /* Darker border for dropdown */
+  border-radius: 5px;
+  background-color: #222; /* Dark background color */
+  z-index: 1000;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 5px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); /* White shadow for dropdown */
+}
+
+.command-menu-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 5px 0 0;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+}
+
+.command-menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.command-menu-item {
+  padding: 10px;
+  cursor: pointer;
+  color: #fff; /* White text color */
+}
+
+.command-menu-item:hover {
+  background-color: #444; /* Slightly lighter dark background on hover */
+}
